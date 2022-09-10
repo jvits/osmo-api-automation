@@ -3,10 +3,10 @@
 # Application requirement 
 1. Visual Studio
 
-# Packages used
+# Package / Framework / Library used
 1. NUnit.Framework
-2. RestSharp
-3. Newtonsoft
+2. RestSharp (For calling Rest Endpoints and Interpret responses)
+3. Newtonsoft.Json (For Object Serialization / Deserialization)
 
 # How to use the project
 1. Open Visual Studio and Click Clone a repository

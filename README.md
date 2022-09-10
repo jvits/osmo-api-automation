@@ -59,10 +59,10 @@
     }
     ```
 ## Updating User Helper
-2. Method : Get ( https://petstore.swagger.io/v2/user/{username} )
+Method : Get ( https://petstore.swagger.io/v2/user/{username} )
 
 ## Retrieving User Helper
-3. Method : Put ( https://petstore.swagger.io/v2/user/{username} )
+Method : Put ( https://petstore.swagger.io/v2/user/{username} )
     ### Example Value: ###
       ```json
       {
@@ -98,5 +98,5 @@
 4. Method : Delete ( https://petstore.swagger.io/v2/user/{username} )
 
 ## Login User Helper
-5. Method : Post ( https://petstore.swagger.io/v2/user/login?username={username}&password={password} )
+Method : Post ( https://petstore.swagger.io/v2/user/login?username={username}&password={password} )
 

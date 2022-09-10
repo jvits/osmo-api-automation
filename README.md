@@ -21,6 +21,7 @@
 # Available Endpoints
 1. Method : POST  ( https://petstore.swagger.io/v2/user )
     Example Value: 
+    ```json
     {
       "id": 0,
       "username": "jojo",
@@ -31,8 +32,10 @@
       "phone", "099992141",
       "userStatus": 0
     }
+    ```
     
     Model / Json Schema
+    ```json
     {
       "type" : "object",
       "properties": {
@@ -46,3 +49,4 @@
           "userStatus": {"type": "int"},
       }
     }
+    ```

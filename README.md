@@ -27,42 +27,42 @@
 # Available Endpoints
 
 ## Adding User Helper
-1. Method : Post  ( https://petstore.swagger.io/v2/user )
-    ### Example Value: ###
-    ```json
-    {
-      "id": 0,
-      "username": "jojo",
-      "firstName": "Jojo",
-      "lastName": "Vito",
-      "email": "jojo@yopmail.com",
-      "password": "password",
-      "phone": "099992141",
-      "userStatus": 0
-    }
-    ```
+Method : Post  ( https://petstore.swagger.io/v2/user )
+  ### Example Value: ###
+  ```json
+  {
+    "id": 0,
+    "username": "jojo",
+    "firstName": "Jojo",
+    "lastName": "Vito",
+    "email": "jojo@yopmail.com",
+    "password": "password",
+    "phone": "099992141",
+    "userStatus": 0
+  }
+  ```
     
-    ### Model / Json Schema ###
-    ```json
-    {
-      "type" : "object",
-      "properties": {
-          "id": {"type": "int"},
-          "username": {"type": "string"},
-          "firstName": {"type": "string"},
-          "lastName": {"type": "string"},
-          "email": {"type": "string"},
-          "password": {"type": "string"},
-          "phone": {"type": "string"},
-          "userStatus": {"type": "int"},
-      }
+  ### Model / Json Schema ###
+  ```json
+  {
+    "type" : "object",
+    "properties": {
+        "id": {"type": "int"},
+        "username": {"type": "string"},
+        "firstName": {"type": "string"},
+        "lastName": {"type": "string"},
+        "email": {"type": "string"},
+        "password": {"type": "string"},
+        "phone": {"type": "string"},
+        "userStatus": {"type": "int"},
     }
-    ```
+  }
+  ```
 ## Updating User Helper
-Method : Get ( https://petstore.swagger.io/v2/user/{username} )
+Method : Put ( https://petstore.swagger.io/v2/user/{username} )
 
 ## Retrieving User Helper
-Method : Put ( https://petstore.swagger.io/v2/user/{username} )
+Method : Get ( https://petstore.swagger.io/v2/user/{username} )
   ### Example Value: ###
     ```json
     {
@@ -95,7 +95,7 @@ Method : Put ( https://petstore.swagger.io/v2/user/{username} )
     ```
 
 ## Deleting User Helper
-4. Method : Delete ( https://petstore.swagger.io/v2/user/{username} )
+Method : Delete ( https://petstore.swagger.io/v2/user/{username} )
 
 ## Login User Helper
 Method : Post ( https://petstore.swagger.io/v2/user/login?username={username}&password={password} )

@@ -19,8 +19,8 @@
 2. ApiHelper : This helper class is for repetitive endpoints like get, post, put and delete.
 
 # Available Endpoints
-1. Method : POST  ( https://petstore.swagger.io/v2/user )
-    Example Value: 
+1. Method : Post  ( https://petstore.swagger.io/v2/user )
+    ### Example Value: ###
     ```json
     {
       "id": 0,
@@ -29,12 +29,12 @@
       "lastName": "Vito",
       "email": "jojo@yopmail.com",
       "password": "password",
-      "phone", "099992141",
+      "phone": "099992141",
       "userStatus": 0
     }
     ```
     
-    Model / Json Schema
+    ### Model / Json Schema ###
     ```json
     {
       "type" : "object",
@@ -50,3 +50,40 @@
       }
     }
     ```
+
+2. Method : Get ( https://petstore.swagger.io/v2/user/{username} )
+
+3. Method : Put ( https://petstore.swagger.io/v2/user/{username} )
+
+  ### Example Value: ###
+    ```json
+    {
+      "id": 0,
+      "username": "jojo",
+      "firstName": "Jojo",
+      "lastName": "Vito",
+      "email": "jojo@yopmail.com",
+      "password": "password",
+      "phone": "099992141",
+      "userStatus": 0
+    }
+    ```
+    
+    ### Model / Json Schema ###
+    ```json
+    {
+      "type" : "object",
+      "properties": {
+          "id": {"type": "int"},
+          "username": {"type": "string"},
+          "firstName": {"type": "string"},
+          "lastName": {"type": "string"},
+          "email": {"type": "string"},
+          "password": {"type": "string"},
+          "phone": {"type": "string"},
+          "userStatus": {"type": "int"},
+      }
+    }
+    ```
+4. Method : Delete ( https://petstore.swagger.io/v2/user/{username} )
+

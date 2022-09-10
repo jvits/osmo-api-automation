@@ -18,7 +18,15 @@
 1. User : This class is basically for user management methods, that includes InsertUser, RetrieveUser, UpdateUser and DeleteUser.
 2. ApiHelper : This helper class is for repetitive endpoints like get, post, put and delete.
 
+# Available Tests
+1. InsertUser
+2. RetrieveUser
+3. UpdateUser
+4. DeleteUser
+
 # Available Endpoints
+
+## Adding User Helper
 1. Method : Post  ( https://petstore.swagger.io/v2/user )
     ### Example Value: ###
     ```json
@@ -50,9 +58,10 @@
       }
     }
     ```
-
+## Updating User Helper
 2. Method : Get ( https://petstore.swagger.io/v2/user/{username} )
 
+## Retrieving User Helper
 3. Method : Put ( https://petstore.swagger.io/v2/user/{username} )
     ### Example Value: ###
       ```json
@@ -84,5 +93,10 @@
         }
       }
       ```
+
+## Deleting User Helper
 4. Method : Delete ( https://petstore.swagger.io/v2/user/{username} )
+
+## Login User Helper
+5. Method : Post ( https://petstore.swagger.io/v2/user/login?username={username}&password={password} )
 
